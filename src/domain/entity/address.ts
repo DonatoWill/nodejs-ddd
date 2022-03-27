@@ -12,5 +12,12 @@ export default class Address {
         this._zip = zip;
     }
 
+    get street() { return this._street; }
+
+    get number() { return this._number;}
+
+    get zip() { return this._zip; }
+
+    get city() { return this._city; }
 
 }

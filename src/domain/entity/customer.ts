@@ -25,7 +25,13 @@ export default  class Customer {
         return this._rewardPoints;
     }
 
+    get address(): Address {
+        return this._address;
+    }
 
+    set address(address: Address) {
+        this._address = address;
+    }
     validate() {
         if(this._name.length === 0) {
             throw new Error("Name is required");
