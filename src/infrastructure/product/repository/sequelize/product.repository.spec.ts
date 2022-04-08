@@ -3,7 +3,7 @@ import Product from "../../../../domain/product/entity/product";
 import ProductModel from "./product.model";
 import ProductRepository from "./product.repository";
 
-describe("Product repository test", () => {
+describe("Product Repository Test 2", () => {
 
     let sequileze: Sequelize;
 
