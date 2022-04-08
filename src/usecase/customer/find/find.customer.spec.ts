@@ -17,7 +17,7 @@ const MockRepository = () => {
     }
 }
 
-describe("Test Find Customer Use Case", () => {
+describe("Test find customer use case", () => {
 
     let sequileze: Sequelize;
 
